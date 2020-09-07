@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="containerFluid">
+    <div id='lang' class='hide'>
+      <button name='lang' id='de' value='DE' @click='switchLang("de")'>DE</button>
+      <button name='lang' id='en' value='EN' @click='switchLang("en")'>EN</button>
+    </div>
+
+      <h2>{{ $t('ciphername') }}</h2>
+      <accordion v-if="useAccordion"></accordion>
+      <cipher></cipher>
+
+      <buttonbox></buttonbox>
+
+      <ngrams></ngrams>
+    <div id='authors'>
+      <em>CTOAUTHORS: {{authors}}</em>
+    </div>
+  </div>
+</div>

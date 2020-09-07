@@ -1,0 +1,36 @@
+button.accordion {
+    font-size: inherit;
+    background: url(/_ctoApps/image/cto_headerBgNoLogo.png);
+    /*background-color: #eaeaea;*/
+    cursor: pointer;
+    padding: 1.2%;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    transition: 0.4s;
+    margin-bottom: 0;
+    color: #fafafa;
+}
+
+button.accordion.active, button.accordion:hover {
+    background: #ddd;
+    color: black;
+}
+
+div.panel {
+    padding: 0 1em;
+    border: 1px solid #ccc;
+    display: none;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+    margin-bottom: 3%;
+}
+
+div.panel.show {
+    opacity: 1;
+    display: block;
+    max-height: 30em;
+    overflow-y: scroll;
+}

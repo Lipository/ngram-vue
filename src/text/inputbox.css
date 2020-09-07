@@ -1,0 +1,9 @@
+.containerFluid #displayOptions .inputBox {
+    display: inline-block;
+}
+.containerFluid #displayOptions .inputBox label{
+    margin: 0 0.6em 0 0;
+}
+.containerFluid #displayOptions .inputBox input {
+    text-align: right;
+}

@@ -1,0 +1,78 @@
+{
+  "de" : {
+    "ciphername": "N-Gramm-Analyse",
+
+    "alpha_headline": "Alphabet für die Analyse",
+    "alpha_uppercase" : "Großbuchstaben",
+    "alpha_blanks" : "Leerzeichen",
+    "alpha_digits" : "Ziffern",
+    "alpha_puctuationmarks" : "Satzzeichen",
+    "alpha_lowercase" : "Kleinbuchstaben",
+    "alpha_umlauts" : "Umlaute",
+
+    "casesensitive" : "Case-sensitiv",
+    "ciphertext" : "Ihr Text (Geheimtext)",
+
+    "default_text" : "Franz jagt im komplett verwahrlosten Taxi quer durch Bayern",
+
+    "length" : "Länge",
+    "tableLength" : "Länge der Tabellen",
+    "descIntro" : "N-Gramme sind beliebig lange Folgen aus Zeichen. N steht für die jeweilige Anzahl.",
+    "example" : "Beispiel",
+    "exampleTetra": "AUTO",
+    "examplePenta": "LEUTE",
+    "exampleHexa": "MENSCH",
+    "exampleMulti": "KRYPTOLOGIE",
+    "exampleText1" : "Die n-Gramm-Analyse bestimmt die Häufigkeit der Wiederholung verschiedener n-Gramme in einem Text.",
+    "exampleText2a" : "Besonders die Abstände gleicher n-Gramme können für das Brechen einer Chiffrierung von",
+    "exampleText2b" : "entscheidender Bedeutung sein, da sich daraus Indizien auf die Schlüssellänge ableiten lassen.",
+    "exampleText3" : "Der folgende Satz ergibt die unten gezeigte N-Gram-Analyse.",
+
+    "gramName" : "N-Gramm-Name",
+    "gram" : "gramm",
+    "rank" : "Rang",
+    "matrix" : "N-Gramm-Tabellen",
+
+    "buttonName" : "Analyse",
+    "descriptionShow" : "Zeige Beschreibung",
+    "weblink": "http://de.wikipedia.org/wiki/N-Gramm"
+  },
+
+  "en" : {
+    "ciphername": "N-Gram Analysis",
+
+    "alpha_headline": "Alphabet for the analysis",
+    "alpha_uppercase" : "Upper case",
+    "alpha_blanks" : "Blanks",
+    "alpha_digits" : "Digits",
+    "alpha_puctuationmarks" : "Punctuation marks",
+    "alpha_lowercase" : "Lower case",
+    "alpha_umlauts" : "Umlauts",
+
+    "casesensitive" : "Case sensitive",
+    "ciphertext" : "Your Text (Ciphertext)",
+    "default_text" : "The quick brown fox jumps over the lazy dog",
+
+    "length" : "length",
+    "tableLength" : "Length of the tables",
+    "descIntro" : "N-grams are sequences of N characters.",
+    "example" : "Example",
+    "exampleTetra": "CASE",
+    "examplePenta": "POINT",
+    "exampleHexa": "PERSON",
+    "exampleMulti": "CRYPTOLOGY",
+    "exampleText1" : "The N-gram analysis determines the frequency of different N-grams in a text.",
+    "exampleText2a" : "Especially the gaps between equal N-grams can potentially be very useful for cracking a cipher",
+    "exampleText2b" : "because they can point to the key length.",
+    "exampleText3" : "The following German sentence results in the N-Gram Analysis shown below.",
+
+    "gramName" : "N-Gram Name",
+    "gram" : "gram",
+    "rank" : "Rank",
+    "matrix" : "N-gram tables",
+
+    "buttonName" : "Analysis",
+    "descriptionShow" : "Show description",
+    "weblink": "http://en.wikipedia.org/wiki/N-gram"
+  }
+}

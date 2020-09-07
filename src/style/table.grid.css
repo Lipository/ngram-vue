@@ -1,0 +1,23 @@
+.containerFluid .tableGrid {
+    border-right: 0.1em solid #8B0000;
+    border-bottom: 0.1em solid #8B0000;
+    display: table;
+    margin-left: 3em;
+    table-layout:fixed;
+    width: 80%;
+}
+.containerFluid .tableRow {
+    display: table-row;
+}
+.containerFluid .tblCell {
+    border-left: 0.1em solid #8B0000;
+    border-top: 0.1em solid #8B0000;
+    display: table-cell;
+    padding: 1px;
+    text-align: center;
+    width: 3%;
+    line-height: 150%;
+}
+.containerFluid .tblCell.head3 {
+    width: 9%;
+}
